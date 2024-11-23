@@ -1,0 +1,197 @@
+ 
+ body{
+   background-color: lightgray;
+ 
+ }
+ table{
+   background-color: white;
+ }
+ h2{
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+ }
+ h4{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, "Helvetica Neue", Helvetica, sans-serif;
+ }
+ span{
+    background-color: black;
+    color: white;
+ }
+    .padding{
+        margin-left: 6px;
+    }
+  button{
+    text-decoration-line: none;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border: 1px solid green;
+    margin: 10px;
+  }
+ 
+  button:hover{
+    background-color: lightgreen;
+  }
+ /* div{
+    padding: 4px;
+ }
+  */
+/* ul{
+   box-shadow: 2px 2px 5px grey;
+   width: autopx; 
+   padding: 4px;
+   margin-left: 0;
+}  */
+/* .col{
+   padding: 7px;
+   margin-left: 10px;
+   color: black;
+   font-family:    Georgia, Times, 'Times New Roman', serif, "Helvetica Neue", Helvetica, sans-serif;
+   text-align: center;
+   width: 150px;
+    
+} */
+td{
+   box-shadow: 2px 2px 5px grey;
+}
+table{
+   margin-right: 30%;
+
+
+}
+p{
+   margin-left: 1%;
+}
+div.img{
+   margin-left: 70%;
+   position: absolute;
+   background-color: white;
+   width: 28%;
+   box-shadow: 2px 2px 5px grey;
+
+} 
+/* div.img1{
+   width: 10%;
+   margin: 0;
+   padding: 0;
+}  */
+ul{
+   display: block;
+   border-bottom:1px solid lightgray;
+   position: absolute;
+   background-color: white;
+   /* width: 10%; */
+   box-shadow: 2px 2px 5px grey;
+   height: 67%;
+   margin-left: 70%;
+   
+}
+ul li{
+   border-bottom: 1px solid lightgray;  
+   padding: 10px; 
+}
+li:hover{
+   background-color: lightgrey;
+}
+ 
+ul{
+   list-style-type: none;
+   margin: 0;
+   margin-left: 70%;
+   padding: 0;
+   width: 25%;
+
+} 
+table.margin{
+   margin-top: 2%;
+}
+ ul{
+   padding: 8px;
+ }
+ .tags{
+   margin: 20px;
+   margin-top: 7px;
+ }
+ span.tags{
+   background-color: lightgrey;
+   color: black;
+   border-radius: 2px;
+   margin-top: 10px;
+ }
+div.footer{
+   width: 98%;
+   background-color: grey;
+   height: 80px;
+   margin: 0;
+   padding: 15px;
+}
+/* div.img3{
+   margin-left: 70%;
+   position: absolute;
+   background-color: white;
+   width: 28%;
+   box-shadow: 2px 2px 5px grey;
+} */
+div.footer button{
+   border: 1px solid black;
+   background-color: black;
+   color: white;
+   width: 10%;
+   height: 40%;
+}
+div.footer button:hover{
+   color: gray;
+}
+div.footer a{
+   color: white;
+}
+img.img7{
+   border-radius: 1000px;
+   width: 19%;
+   margin-left: 10px;
+}
+/* img.img7:hover{
+   border-radius: 100px;  
+} */
+/* .img7 .img8{
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   display: none;
+}
+.img7:hover .img8{
+   display: block;
+
+} */
+
+
+
+.imageBox {
+   position: relative;
+   left: 0;
+   bottom: 0;
+ }
+ 
+ .hoverImg {
+   border-radius: 100px;
+   position: absolute;
+   left: 9.5px;
+   top: 0;
+   display: none;
+   border-radius: 150px;
+   width: 19%;
+ }
+ 
+ .imageBox:hover .hoverImg{
+   display: block;
+ 
+ }
+div.imageBox{
+   display: inline;
+   width: 50%;
+}
+table.hovers{
+   background-color: navy;
+   height: 50%;
+}
